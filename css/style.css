@@ -1,0 +1,59 @@
+/*Selector de hijos*/
+
+p>span{
+	color: blue;
+}
+
+div>h1{
+	margin: 10px;
+	color: #EAC840;
+	background: #000000;
+}
+
+/*Selector adyacente*/
+
+h1 + h2{
+	text-decoration: underline;
+	color:#AC3BDB;
+}
+
+h1 + h2 + h2{
+	text-decoration: underline;
+	color: #FF6E00;
+}
+
+p + p{
+	text-align: center;
+	color: #46C4E9;
+	text-decoration: underline;
+}
+
+/*selector de atributos*/
+
+a[class]{
+	color: #229C2E;
+	text-decoration: none;
+	animation: infinite;
+}
+
+a[class="unaClase"]{
+	color: #FF8E00;
+	text-decoration: none;
+	text-decoration: overline;
+}
+
+a[class~="otraClase"]{
+	text-decoration: none;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	margin-left: 102px;
+	margin-right: 90px;
+	background-color: #6B44AB;
+
+}
+
+*[lang|="ru"]{
+	color: #644814;
+	font-size: 100px;
+
+}
